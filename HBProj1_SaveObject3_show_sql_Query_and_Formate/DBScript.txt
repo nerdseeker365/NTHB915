@@ -1,0 +1,17 @@
+CREATE TABLE "SCOTT"."PRODUCT" 
+   (	"PID" NUMBER NOT NULL ENABLE, 
+	"PNAME" VARCHAR2(20 BYTE), 
+	"PRICE" FLOAT(126), 
+	"QLY" FLOAT(126)
+   )
+   output:::
+   
+   object is Saved
+   100	Battery	32.34	2
+   Hibernate: 
+    insert 
+    into
+        PRODUCT
+        (PNAME, PRICE, QLY, PID) 
+    values
+        (?, ?, ?, ?)
