@@ -9,7 +9,7 @@ import org.hibernate.cfg.Configuration;
 import com.nt.entity.Product;
 
 public class SaveObjectTest {
-
+      
 	public static void main(String[] args) {
 		Configuration cfg=null;
 		SessionFactory factory=null;
