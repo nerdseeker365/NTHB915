@@ -1,0 +1,64 @@
+CREATE TABLE "SCOTT"."PRODUCT" 
+   (	"PID" NUMBER NOT NULL ENABLE, 
+	"PNAME" VARCHAR2(20 BYTE), 
+	"PRICE" FLOAT(126), 
+	"QLY" FLOAT(126)
+   )
+   output:::
+   
+   object is Saved
+   100	Battery	32.34	2
+  1
+2
+Hibernate: 
+    insert 
+    into
+        PRODUCT
+        (PNAME, PRICE, QLY, PID) 
+    values
+        (?, ?, ?, ?)
+3
+Object is Saved
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{java.specification.version=14, 
+sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252,
+ sun.arch.data.model=64, java.vendor.url=https://java.oracle.com/, 
+ sun.boot.library.path=E:\Java 14 Version\jdk-14.0.1\bin,
+  sun.java.command=com.nt.test.SaveObjectTest,
+   jdk.debug=release, java.specification.vendor=Oracle Corporation,
+    java.version.date=2020-04-14,
+     java.home=E:\Java 14 Version\jdk-14.0.1, 
+     file.separator=\,
+      java.vm.compressedOopsMode=32-bit,
+       line.separator=
+, java.vm.specification.vendor=Oracle Corporation,
+ java.specification.name=Java Platform API Specification, 
+ user.script=,
+  sun.management.compiler=HotSpot 64-Bit Tiered Compilers,
+   java.runtime.version=14.0.1+7,
+    user.name=Dell,
+     file.encoding=Cp1252, 
+     java.io.tmpdir=C:\Users\Dell\AppData\Local\Temp\,
+      java.version=14.0.1,
+       java.vm.specification.name=Java Virtual Machine Specification, 
+       sun.os.patch.level=, 
+       java.library.path=E:\Java 14 Version\jdk-14.0.1\bin;
+       C:\Windows\Sun\Java\bin;C:\Windows\system32;
+       C:\Windows;
+       E:/Java 14 Version/jdk-14.0.1/bin/server;
+       E:/Java 14 Version/jdk-14.0.1/bin;
+       E:\app\Dell\product\11.2.0\dbhome_1\bin;
+       C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;
+       C:\Windows\System32\WindowsPowerShell\v1.0\;
+       C:\Windows\System32\OpenSSH\;
+       E:\Java 14 Version\jdk-14.0.1\bin;
+       E:\app\Dell\product\11.2.0\dbhome_1\jdbc\lib\ojdbc6.jar;
+       E:\JBoss Renamed As Wildfly20.0.1v\wildfly-20.0.1.Final\bin;;C:\Users\Dell\Desktop;
+       ;., java.vendor=Oracle Corporation, sun.io.unicode.encoding=UnicodeLittle, 
+       java.class.path=F:\Hibernate_Apps\HBProj1_SaveObject8_Get_Properties\bin;
+       F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\antlr-2.7.7.jar;
+       F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\byte-buddy-1.10.10.jar;
+       F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\classmate-1.5.1.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\dom4j-2.1.3.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\FastInfoset-1.2.15.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\hibernate-commons-annotations-5.1.0.Final.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\hibernate-core-5.4.18.Final.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\istack-commons-runtime-3.0.7.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\jandex-2.1.3.Final.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\javassist-3.24.0-GA.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\javax.activation-api-1.2.0.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\javax.persistence-api-2.2.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\jaxb-api-2.3.1.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\txw2-2.3.1.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\stax-ex-1.8.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\jaxb-runtime-2.3.1.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\jboss-logging-3.3.2.Final.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;E:\app\Dell\product\11.2.0\dbhome_1\jdbc\lib\ojdbc6.jar;F:\lombok\lombok.jar, java.vm.vendor=Oracle Corporation, user.variant=, user.timezone=Asia/Calcutta, java.vm.specification.version=14, os.name=Windows 10, sun.java.launcher=SUN_STANDARD, user.country=US, sun.cpu.endian=little, user.home=C:\Users\Dell, user.language=en, path.separator=;, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, java.vm.name=OpenJDK 64-Bit Server VM, java.vendor.url.bug=https://bugreport.java.com/bugreport/, user.dir=F:\Hibernate_Apps\HBProj1_SaveObject8_Get_Properties, os.arch=amd64, java.vm.info=mixed mode, sharing, java.vm.version=14.0.1+7, hibernate.bytecode.use_reflection_optimizer=false, java.class.version=58.0}
+-----------------------------------------
+{hibernate.format_sql=true, java.specification.version=14, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, sun.arch.data.model=64, java.vendor.url=https://java.oracle.com/, sun.boot.library.path=E:\Java 14 Version\jdk-14.0.1\bin, sun.java.command=com.nt.test.SaveObjectTest, jdk.debug=release, java.specification.vendor=Oracle Corporation, java.version.date=2020-04-14, java.home=E:\Java 14 Version\jdk-14.0.1, file.separator=\, java.vm.compressedOopsMode=32-bit, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=14.0.1+7, user.name=Dell, file.encoding=Cp1252, show_sql=true, java.io.tmpdir=C:\Users\Dell\AppData\Local\Temp\, java.version=14.0.1, java.vm.specification.name=Java Virtual Machine Specification, sun.os.patch.level=, java.library.path=E:\Java 14 Version\jdk-14.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:/Java 14 Version/jdk-14.0.1/bin/server;E:/Java 14 Version/jdk-14.0.1/bin;E:\app\Dell\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\Java 14 Version\jdk-14.0.1\bin;E:\app\Dell\product\11.2.0\dbhome_1\jdbc\lib\ojdbc6.jar;E:\JBoss Renamed As Wildfly20.0.1v\wildfly-20.0.1.Final\bin;;C:\Users\Dell\Desktop;;., java.vendor=Oracle Corporation, sun.io.unicode.encoding=UnicodeLittle, java.class.path=F:\Hibernate_Apps\HBProj1_SaveObject8_Get_Properties\bin;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\antlr-2.7.7.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\byte-buddy-1.10.10.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\classmate-1.5.1.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\dom4j-2.1.3.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\FastInfoset-1.2.15.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\hibernate-commons-annotations-5.1.0.Final.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\hibernate-core-5.4.18.Final.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\istack-commons-runtime-3.0.7.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\jandex-2.1.3.Final.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\javassist-3.24.0-GA.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\javax.activation-api-1.2.0.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\javax.persistence-api-2.2.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\jaxb-api-2.3.1.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\txw2-2.3.1.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\stax-ex-1.8.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\jaxb-runtime-2.3.1.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\jboss-logging-3.3.2.Final.jar;F:\Hibernate Framework5.4.1\hibernate-release-5.4.18.Final\lib\required\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;E:\app\Dell\product\11.2.0\dbhome_1\jdbc\lib\ojdbc6.jar;F:\lombok\lombok.jar, java.vm.vendor=Oracle Corporation, user.variant=, user.timezone=Asia/Calcutta, java.vm.specification.version=14, os.name=Windows 10, sun.java.launcher=SUN_STANDARD, user.country=US, sun.cpu.endian=little, user.home=C:\Users\Dell, user.language=en, path.separator=;, hibernate.connection.username=scott, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:oracle:thin:@localhost:1521:ORCL, format_sql=true, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=true, java.vendor.url.bug=https://bugreport.java.com/bugreport/, user.dir=F:\Hibernate_Apps\HBProj1_SaveObject8_Get_Properties, os.arch=amd64, hibernate.connection.password=tiger, java.vm.info=mixed mode, sharing, java.vm.version=14.0.1+7, hibernate.bytecode.use_reflection_optimizer=false, java.class.version=58.0}
