@@ -36,6 +36,7 @@ public class SaveObjectTest {
 		prod.setQly(2);
 		try {
 			tx=ses.beginTransaction();//Internally calls con.setAutoCommit(false) to begin the tx
+			System.out.println("tx object class name::"+tx.getClass());
 			//Save Object
 			ses.save(prod);
 			System.out.println("1");
